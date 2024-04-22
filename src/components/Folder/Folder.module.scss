@@ -1,0 +1,21 @@
+@import 'src/theme/variables';
+
+.folderTitleBlock {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: var(--BLUE_GREEN);
+}
+
+.folderName {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-bold);
+}
+
+.folderChildrenList {
+  list-style: none;
+  padding-left: 15px;
+}
