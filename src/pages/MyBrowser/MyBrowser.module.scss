@@ -1,0 +1,30 @@
+@import 'src/theme/variables';
+
+.mainContent {
+  min-height: 100vh;
+  padding: 100px 15px 50px;
+  background-color: var(--GREY_9);
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.emptyBlock {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-normal-500);
+  text-align: center;
+  margin-top: 100px;
+  color: var(--RED);
+}

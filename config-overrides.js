@@ -5,8 +5,8 @@ module.exports = function override(config) {
     ...config.resolve,
     alias: {
       ...config.resolve.alias,
-      api: path.resolve(__dirname, 'src/api'),
       components: path.resolve(__dirname, 'src/components'),
+      data: path.resolve(__dirname, 'src/data1'),
       pages: path.resolve(__dirname, 'src/pages'),
       theme: path.resolve(__dirname, 'src/theme'),
       interfaces: path.resolve(__dirname, 'src/interfaces'),
